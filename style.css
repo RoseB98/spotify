@@ -1,0 +1,77 @@
+/*header*/ 
+
+.header{
+    width:52em;
+    */position:fixed;*/
+    background-color:white; 
+    height:4.5em;
+    margin-top:-0.5em;
+    margin-left:-1em;
+    /*padding-right:51em;*/
+  } 
+   nav{
+    display:flex;
+    justify-content:flex-end;
+  } 
+  .ul-nav{ 
+    width:20em; 
+    height:2em;
+    background-color:white;
+    display:flex;
+    justify-content:space-between;
+    list-style:none; 
+   
+  } 
+  .nav-list{
+    margin:0 7px; 
+    font-family:Arial;
+    padding-top:7px;
+  } 
+  .logo{ 
+    padding-top:12px; 
+    padding-left:15px;
+    max-width:10em;
+    height:2.5em;
+  } 
+  
+  /*section 1*/
+  
+  .section1{
+    height:34em; 
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+    flex-direction:column; 
+    background-image: url("https://factoriaf5.s3.eu-west-3.amazonaws.com/talleres/spotify/landing.jpg");
+    background-repeat : no-repeat;
+    background-size : 100%;
+    margin-left:-1em;
+    margin-right:-1em;
+  }
+  
+  h1{
+    color:white;
+    font-family:arial;
+    font-size:2.5em; 
+    margin-bottom:-0.2em;
+  } 
+  p{
+    color:white;
+    font-size:20px; 
+    line-height:1px; 
+    margin:12px 0;
+  }pxpx
+  
+  /*section 2*/ 
+  
+  .section2{ 
+    height: 40px;
+    width: 10px;
+    background-color:green;
+  }
+  h2{
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color:#1ab26b;
+  } 
+  
